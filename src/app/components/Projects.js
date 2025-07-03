@@ -55,7 +55,10 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section className="bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 text-white py-16 px-6 sm:px-10 lg:px-24">
+    <section
+      id="projects"
+      className="bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 text-white py-16 px-6 sm:px-10 lg:px-24"
+    >
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-cyan-400 to-pink-400">
           Projects

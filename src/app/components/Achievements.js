@@ -12,8 +12,7 @@ const achievements = [
   },
   {
     title: "Project Expo Winner Yavatmal",
-    description:
-      "Won first place for developing an AI-powered career planner at SSGMCE's prestigious IEEE photos.",
+    description: "Won third place.",
     logo: "/photos/img20.jpg",
   },
   {

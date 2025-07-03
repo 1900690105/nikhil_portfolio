@@ -5,6 +5,7 @@ import Certifications from "./components/Certifications";
 import Contact from "./components/ContactSection";
 import Footer from "./components/Footer";
 import Gallery from "./components/Gallery";
+import PortfolioHeader from "./components/Header";
 import HeroSection from "./components/Hero";
 import TeamLeaderSection from "./components/Leader";
 import Projects from "./components/Projects";
@@ -15,6 +16,7 @@ import VideoSection from "./components/VideoSection";
 export default function Home() {
   return (
     <div>
+      <PortfolioHeader />
       <HeroSection />
       <AboutMe />
       <Skills />

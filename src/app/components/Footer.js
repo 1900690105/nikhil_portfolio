@@ -39,7 +39,7 @@ export default function Footer() {
           <h4 className="text-lg font-semibold text-white mb-3">Follow Me</h4>
           <div className="flex justify-center gap-5">
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/1900690105"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-gray-100"
@@ -47,7 +47,7 @@ export default function Footer() {
               <Github className="w-5 h-5" />
             </a>
             <a
-              href="https://linkedin.com/in/yourprofile"
+              href="https://linkedin.com/in/nikhilkandhare"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-blue-400"

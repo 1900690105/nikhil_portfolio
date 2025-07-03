@@ -91,7 +91,10 @@ export default function Contact() {
   // Don't render anything until mounted (prphotoss hydration mismatch)
   if (!mounted) {
     return (
-      <section className="relative min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 py-20 px-6 sm:px-10 lg:px-24 text-gray-200">
+      <section
+        id="contact"
+        className="relative min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 py-20 px-6 sm:px-10 lg:px-24 text-gray-200"
+      >
         <div className="relative max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/5 backdrop-blur-sm rounded-full border border-white/10 mb-6">

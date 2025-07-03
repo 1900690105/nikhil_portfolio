@@ -1,11 +1,12 @@
 "use client";
 import React from "react";
-import { FileText, Mail, Github, ArrowDown } from "lucide-react";
+import { FileText, Mail, Github, ArrowDown, Linkedin } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function HeroSection() {
   return (
-    <section className="bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 text-white flex items-center relative overflow-hidden">
+    <section className="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 text-white flex items-center relative overflow-hidden">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-purple-500/20 rounded-full blur-3xl animate-pulse"></div>
@@ -56,13 +57,15 @@ export default function HeroSection() {
                   View Resume
                 </a>
 
-                <a
-                  href="#contact"
+                <Link
+                  href="https://www.linkedin.com/in/nikhilkandhare/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="group inline-flex items-center justify-center gap-2 px-6 sm:px-8 py-3 sm:py-4 border-2 border-purple-400 text-purple-400 font-medium rounded-full hover:bg-purple-400 hover:text-white hover:scale-105 hover:shadow-xl transition-all duration-300 text-sm sm:text-base"
                 >
-                  <Mail className="w-4 h-4 sm:w-5 sm:h-5 group-hover:bounce transition-transform" />
-                  Contact Me
-                </a>
+                  <Linkedin className="w-4 h-4 sm:w-5 sm:h-5 group-hover:bounce transition-transform" />
+                  Linkedin
+                </Link>
 
                 <a
                   href="https://github.com/yourgithub"
@@ -109,14 +112,6 @@ export default function HeroSection() {
                 <div className="absolute -bottom-4 -left-4 w-6 h-6 bg-purple-400 rounded-full animate-bounce delay-300"></div>
                 <div className="absolute top-1/2 -left-8 w-4 h-4 bg-pink-400 rounded-full animate-bounce delay-500"></div>
               </div>
-            </div>
-          </div>
-
-          {/* Scroll Indicator */}
-          <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
-            <div className="flex flex-col items-center animate-bounce">
-              <span className="text-xs text-gray-400 mb-2">Scroll Down</span>
-              <ArrowDown className="w-5 h-5 text-gray-400" />
             </div>
           </div>
         </div>
