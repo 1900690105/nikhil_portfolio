@@ -19,7 +19,7 @@ const projects = [
 👉 Check it out [nikhilkandhare.vercel.app]
 💬 Drop your thoughts or suggestions!`,
     github: "https://github.com/1900690105/Code_Editor",
-    live: "#",
+    live: "https://nikhilkandhare-kiby32eek-nikhil-kandhares-projects.vercel.app/code-editor",
   },
   {
     title: "Modern College Website Using AI",

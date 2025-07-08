@@ -116,7 +116,12 @@ export default function CodeEditorPage() {
       <div className="border-b border-gray-700 bg-gray-800/50 backdrop-blur-sm sticky top-0 z-50">
         <div className="px-4 sm:px-6 py-3 sm:py-4">
           <div className="flex items-center justify-between">
-            <div className="flex items-center gap-2 sm:gap-3">
+            <div
+              className="flex items-center gap-2 sm:gap-3 cursor-pointer"
+              onClick={() => {
+                window.location.href = "/";
+              }}
+            >
               <div className="w-6 h-6 sm:w-8 sm:h-8 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
                 <Code className="w-3 h-3 sm:w-5 sm:h-5 text-white" />
               </div>
