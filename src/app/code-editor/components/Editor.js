@@ -73,6 +73,18 @@ export default function CodeEditorPage() {
         }),
       });
 
+      if (submission.status === 429) {
+        setOutput(
+          "🚫 Daily API limit exceeded. Please try again tomorrow or upgrade your plan."
+        );
+        setLoading(false);
+        return;
+      }
+
+      if (!submission.ok) {
+        throw new Error("Submission failed.");
+      }
+
       const { token } = await submission.json();
 
       setTimeout(async () => {
@@ -80,6 +92,12 @@ export default function CodeEditorPage() {
           method: "POST",
           body: JSON.stringify({ token }),
         });
+
+        if (result.status === 429) {
+          setOutput("🚫 Judge0 API rate limit reached. Try again later.");
+          setLoading(false);
+          return;
+        }
 
         const data = await result.json();
 
