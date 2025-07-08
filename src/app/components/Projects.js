@@ -25,7 +25,7 @@ const projects = [
     title: "Modern College Website Using AI",
     techStack: ["Next.js", "Tailwind CSS", "OpenAI API"],
     description:
-      "A responsive and dynamic college website integrated with AI features like chatbot guidance and content generation to help students navigate easily.",
+      "🎓 An interactive and responsive college website powered by AI — featuring smart chatbots for instant guidance, AI-generated content, and seamless navigation to help students explore their academic journey with ease.",
     github: "https://github.com/1900690105/GROUP_G1",
   },
   {
