@@ -4,6 +4,23 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
+    title: "All In One Code Editor",
+    techStack: ["Next.js", "Tailwind CSS", "monaco-editor", "Judge0 API"],
+    description: `🚀 Just launched my own Online Code Editor — built with ❤️ using Next.js App Router, Monaco Editor, and Judge0 API!
+
+✨ Features:
+✅ Live code editing with Monaco
+✅ Input support for stdin
+✅ 50+ language support (auto-loaded)
+✅ Syntax highlighting for top languages
+✅ Backend-protected API key integration
+✅ Fully responsive UI with Tailwind CSS
+💡 Ideal for interview preparation & learning — because A degree ≠ a job.
+👉 Check it out [nikhilkandhare.vercel.app]
+💬 Drop your thoughts or suggestions!`,
+    github: "https://github.com/1900690105/Code_Editor",
+  },
+  {
     title: "Modern College Website Using AI",
     techStack: ["Next.js", "Tailwind CSS", "OpenAI API"],
     description:

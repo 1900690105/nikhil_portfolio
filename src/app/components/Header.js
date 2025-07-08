@@ -17,7 +17,6 @@ const PortfolioHeader = () => {
     { name: "About", href: "#about" },
     { name: "Projects", href: "#projects" },
     { name: "Skills", href: "#Skills" },
-    { name: "Team", href: "#team" },
     { name: "Contact", href: "#contact" },
   ];
 
