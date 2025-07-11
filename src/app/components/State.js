@@ -16,7 +16,7 @@ const stats = [
 
 export default function TeamStats() {
   return (
-    <section className="bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 py-20 px-6 sm:px-10 lg:px-24 text-white relative overflow-hidden">
+    <section className=" py-20 px-6 sm:px-10 lg:px-24  relative overflow-hidden">
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-cyan-500/5 rounded-full blur-3xl animate-pulse"></div>

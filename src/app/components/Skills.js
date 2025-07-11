@@ -57,7 +57,7 @@ export default function Skills() {
   return (
     <section
       id="Skills"
-      className="bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 text-white py-20 px-6 sm:px-10 lg:px-24 relative overflow-hidden"
+      className=" py-20 px-6 sm:px-10 lg:px-24 relative overflow-hidden"
     >
       {/* Floating particles background */}
       <div className="absolute inset-0 overflow-hidden">

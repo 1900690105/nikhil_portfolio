@@ -55,7 +55,7 @@ export default function Gallery() {
   };
 
   return (
-    <section className="bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 min-h-screen py-20 px-6 sm:px-10 lg:px-24 text-white relative overflow-hidden">
+    <section className=" py-20 px-6 sm:px-10 lg:px-24  relative overflow-hidden">
       {/* Animated background elements */}
       <div className="absolute inset-0 opacity-30">
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-gradient-to-r from-cyan-500/20 to-purple-500/20 rounded-full blur-3xl animate-pulse"></div>

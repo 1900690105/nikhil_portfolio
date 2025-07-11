@@ -7,7 +7,7 @@ export default function TeamLeaderSection() {
   return (
     <section
       id="team"
-      className="bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 text-white py-20 px-6 sm:px-10 lg:px-24 relative overflow-hidden"
+      className=" py-20 px-6 sm:px-10 lg:px-24 relative overflow-hidden"
     >
       {/* Animated Background Elements */}
       <div className="absolute inset-0 opacity-10">

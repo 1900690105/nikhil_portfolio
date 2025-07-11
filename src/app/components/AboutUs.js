@@ -56,10 +56,7 @@ export default function AboutMe() {
   }, []);
 
   return (
-    <section
-      id="about"
-      className="relative min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 overflow-hidden"
-    >
+    <section id="about" className="relative min-h-screen  ">
       {/* Animated background elements */}
       <div className="absolute inset-0">
         <div className="absolute top-20 left-10 w-72 h-72 bg-purple-500/10 rounded-full blur-3xl animate-pulse"></div>

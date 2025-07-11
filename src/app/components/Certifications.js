@@ -13,7 +13,7 @@ const certifications = [
 
 export default function Certifications() {
   return (
-    <section className="bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 py-20 px-6 sm:px-10 lg:px-24 text-gray-200 relative overflow-hidden">
+    <section className=" py-20 px-6 sm:px-10 lg:px-24  relative overflow-hidden">
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-1/3 left-1/5 w-72 h-72 bg-green-500/5 rounded-full blur-3xl animate-pulse"></div>

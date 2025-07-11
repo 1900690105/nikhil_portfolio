@@ -1,7 +1,9 @@
 "use client";
+import { useState } from "react";
 import AboutMe from "./components/AboutUs";
 import Achievements from "./components/Achievements";
 import Certifications from "./components/Certifications";
+import CompanyChatbot from "./components/ChatBotSmall";
 import Contact from "./components/ContactSection";
 import Footer from "./components/Footer";
 import Gallery from "./components/Gallery";
@@ -14,9 +16,12 @@ import TeamStats from "./components/State";
 import VideoSection from "./components/VideoSection";
 
 export default function Home() {
+  const [messages, setMessages] = useState([]);
+
   return (
-    <div>
+    <div className="bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 text-white">
       <PortfolioHeader />
+      <CompanyChatbot messages={messages} setMessages={setMessages} />
       <HeroSection />
       <AboutMe />
       <Skills />
