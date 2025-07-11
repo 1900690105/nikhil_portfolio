@@ -14,10 +14,11 @@ const PortfolioHeader = () => {
   }, []);
 
   const navItems = [
-    { name: "About", href: "#about" },
-    { name: "Projects", href: "#projects" },
-    { name: "Skills", href: "#Skills" },
-    { name: "Contact", href: "#contact" },
+    { name: "ABOUT", href: "#about" },
+    { name: "SKILLS", href: "#Skills" },
+    { name: "PROJECT", href: "#projects" },
+    { name: "GCOEY", href: "#gcoey" },
+    { name: "CONTACT", href: "#contact" },
   ];
 
   const socialLinks = [
@@ -41,7 +42,7 @@ const PortfolioHeader = () => {
             {/* Logo */}
             <div className="flex-shrink-0">
               <div className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                Portfolio
+                NK Portfolio
               </div>
             </div>
 

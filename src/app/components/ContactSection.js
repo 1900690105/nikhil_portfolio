@@ -102,7 +102,7 @@ export default function Contact() {
   // Don't render anything until mounted (prevents hydration mismatch)
   if (!mounted) {
     return (
-      <section id="contact" className="relative  py-20 px-6 sm:px-10 lg:px-24 ">
+      <section className="relative  py-20 px-6 sm:px-10 lg:px-24 ">
         <div className="relative max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/5 backdrop-blur-sm rounded-full border border-white/10 mb-6">
@@ -125,7 +125,10 @@ export default function Contact() {
   }
 
   return (
-    <section className="relative min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 py-20 px-6 sm:px-10 lg:px-24 text-gray-200 overflow-hidden">
+    <section
+      id="contact"
+      className="relative min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 py-20 px-6 sm:px-10 lg:px-24 text-gray-200 overflow-hidden"
+    >
       {/* Static background elements (no dynamic positioning) */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-20 left-20 w-96 h-96 bg-gradient-to-r from-cyan-500/10 to-purple-500/10 rounded-full blur-3xl animate-pulse" />

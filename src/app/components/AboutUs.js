@@ -262,7 +262,9 @@ export default function AboutMe() {
           {/* CTA Section */}
           <div className="mt-20 text-center">
             <div className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full text-white font-semibold hover:from-purple-600 hover:to-pink-600 transition-all duration-300 hover:scale-105 hover:shadow-xl cursor-pointer group">
-              <span>Let&#39;s Build Something Amazing</span>
+              <a href="#contact">
+                <span>Let&#39;s Build Something Amazing</span>
+              </a>
               <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform duration-200" />
             </div>
           </div>

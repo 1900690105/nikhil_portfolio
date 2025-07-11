@@ -6,7 +6,7 @@ import { Trophy, Users, Star, Zap, Target, Award } from "lucide-react";
 export default function TeamLeaderSection() {
   return (
     <section
-      id="team"
+      id="gcoey"
       className=" py-20 px-6 sm:px-10 lg:px-24 relative overflow-hidden"
     >
       {/* Animated Background Elements */}

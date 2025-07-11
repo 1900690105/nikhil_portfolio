@@ -34,6 +34,7 @@ const projects = [
     description:
       "An AI-powered platform that helps users generate professional resumes with content suggestions, formatting, and export to PDF.",
     github: "#",
+    live: "https://avsarmarg.vercel.app/profiling/resume",
   },
   {
     title: "Mock Interview Website with AI",
@@ -41,6 +42,7 @@ const projects = [
     description:
       "A tool that simulates technical interviews using AI, provides instant feedback, and highlights strengths and areas of improvement.",
     github: "#",
+    live: "https://avsarmarg.vercel.app/technical/mockinterview",
   },
   {
     title: "AI Roadmap Generator",
@@ -48,6 +50,7 @@ const projects = [
     description:
       "Generates personalized learning roadmaps for different tech roles using AI by understanding user goals and experience levels.",
     github: "#",
+    live: "https://avsarmarg.vercel.app/careerplanning/DepartmentJobRoles",
   },
   {
     title: "Student Management System",
