@@ -21,12 +21,6 @@ const PortfolioHeader = () => {
     { name: "CONTACT", href: "#contact" },
   ];
 
-  const socialLinks = [
-    { icon: Github, href: "#", label: "GitHub" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
-    { icon: Mail, href: "#", label: "Email" },
-  ];
-
   return (
     <div className="bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 text-white">
       {/* Navigation */}
