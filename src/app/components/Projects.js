@@ -30,14 +30,14 @@ const projects = [
   },
   {
     title: "Modern College Website Using AI",
-    techStack: ["Next.js", "Tailwind CSS", "OpenAI API"],
+    techStack: ["Next.js", "Tailwind CSS", "Gemini AI API"],
     description:
       "🎓 An interactive and responsive college website powered by AI — featuring smart chatbots for instant guidance, AI-generated content, and seamless navigation to help students explore their academic journey with ease.",
     github: "https://github.com/1900690105/GROUP_G1",
   },
   {
     title: "AI Resume Builder",
-    techStack: ["React", "Node.js", "OpenAI", "Tailwind"],
+    techStack: ["Nextsjs", "Gemini AI API", "Tailwind"],
     description:
       "An AI-powered platform that helps users generate professional resumes with content suggestions, formatting, and export to PDF.",
     github: "#",
@@ -53,7 +53,7 @@ const projects = [
   },
   {
     title: "AI Roadmap Generator",
-    techStack: ["React", "OpenAI", "Tailwind"],
+    techStack: ["React", "Gemini AI API", "Tailwind"],
     description:
       "Generates personalized learning roadmaps for different tech roles using AI by understanding user goals and experience levels.",
     github: "#",

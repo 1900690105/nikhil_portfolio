@@ -1,5 +1,6 @@
+"use client";
 import React, { useState, useEffect } from "react";
-import { ChevronDown, Github, Linkedin, Mail, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 
 const PortfolioHeader = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
