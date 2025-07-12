@@ -7,7 +7,6 @@ const projects = [
     title: "All In One Code Editor",
     techStack: ["Next.js", "Tailwind CSS", "monaco-editor", "Judge0 API"],
     description: `🚀 Just launched my own Online Code Editor — built with ❤️ using Next.js App Router, Monaco Editor, and Judge0 API!
-
 ✨ Features:
 ✅ Live code editing with Monaco
 ✅ Input support for stdin
@@ -19,7 +18,15 @@ const projects = [
 👉 Check it out [nikhilkandhare.vercel.app]
 💬 Drop your thoughts or suggestions!`,
     github: "https://github.com/1900690105/Code_Editor",
-    live: "/code-editor",
+    live: "https://avsarmarg.vercel.app/learn/codeeditor",
+  },
+  {
+    title: "ChatBot That intergrete with any website",
+    techStack: ["Next.js", "Tailwind CSS", "Gemini AI API", "cheerio"],
+    description:
+      "An Lets AI answer the question asked by user,here is the platform that handle user interaction of your platform it answer the question using your website data with the help of gemini AI API.This page also contain this chatbot",
+    github: "https://github.com/1900690105/chatbot",
+    live: "/",
   },
   {
     title: "Modern College Website Using AI",
@@ -52,26 +59,6 @@ const projects = [
     github: "#",
     live: "https://avsarmarg.vercel.app/careerplanning/DepartmentJobRoles",
   },
-  {
-    title: "Student Management System",
-    techStack: ["PHP", "MySQL", "Bootstrap"],
-    description:
-      "CRUD-based system for managing student data, course enrollments, and records, used in school environments.",
-  },
-  {
-    title: "To-Do App",
-    techStack: ["React", "Firebase", "Tailwind"],
-    description:
-      "A clean, responsive task management app allowing users to add, update, and delete tasks in real-time.",
-    live: "#",
-  },
-  {
-    title: "Doctor-Patient Appointment System",
-    techStack: ["PHP", "MySQL", "HTML/CSS"],
-    description:
-      "Online appointment booking system that handles patient registration, doctor availability, and notifications.",
-    github: "#",
-  },
 ];
 
 export default function Projects() {
@@ -79,7 +66,7 @@ export default function Projects() {
     <section id="projects" className=" py-16 px-6 sm:px-10 lg:px-24">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-cyan-400 to-pink-400">
-          Projects
+          Current Top Projects
         </h2>
 
         <div className="grid md:grid-cols-2 gap-8">

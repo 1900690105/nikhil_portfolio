@@ -40,7 +40,7 @@ export default function HeroSection() {
                 I develop scalable, intelligent applications using{" "}
                 <span className="text-purple-400 font-medium">Next.js</span>,{" "}
                 <span className="text-orange-400 font-medium">Firebase</span>,{" "}
-                <span className="text-green-400 font-medium">Python</span>, and{" "}
+                <span className="text-green-400 font-medium">React</span>, and{" "}
                 <span className="text-pink-400 font-medium">AI tools</span> —
                 blending front-end precision with back-end logic.
               </p>
