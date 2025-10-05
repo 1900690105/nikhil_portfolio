@@ -9,8 +9,8 @@ export default function VideoSection() {
           Here&#39;s Our Journy
         </h2>
 
-        <div className="relative pb-[56.25%] h-0 overflow-hidden rounded-xl shadow-lg">
-          <video controls className="w-full rounded-xl shadow-lg">
+        <div className="relative overflow-hidden rounded-xl shadow-lg flex justify-center items-center">
+          <video controls className="w-[800px] h-[500px] rounded-xl shadow-lg ">
             <source src="/gcoey.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
