@@ -48,7 +48,7 @@ export default function HeroSection() {
               {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start">
                 <a
-                  href="/Nikhil_Kandhare_WE9112430021.pdf"
+                  href="/Nikhil_Kandhare_9112430021.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group inline-flex items-center justify-center gap-2 px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-cyan-500 to-purple-600 text-white font-medium rounded-full hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/25 transition-all duration-300 text-sm sm:text-base"

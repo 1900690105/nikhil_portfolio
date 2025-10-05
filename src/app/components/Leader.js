@@ -50,7 +50,7 @@ export default function TeamLeaderSection() {
               <p className="text-gray-300 leading-relaxed">
                 I proudly lead{" "}
                 <span className="text-cyan-400 font-semibold">Team GCOEY</span>{" "}
-                — the premier competitive programming team representing{" "}
+                — the premier team representing{" "}
                 <span className="text-purple-400 font-semibold">
                   Government College of Engineering, Yavatmal
                 </span>
@@ -95,10 +95,15 @@ export default function TeamLeaderSection() {
                 landscape.
               </p>
               <div className="bg-gradient-to-r from-cyan-500/10 to-purple-500/10 p-4 rounded-lg border-l-4 border-cyan-400">
-                <p className="text-gray-300">
+                <p className="text-gray-300 ">
                   Our flagship photos,{" "}
-                  <span className="text-cyan-400 font-semibold">
-                    C-Rush 1.0 & 2.0
+                  <span
+                    onClick={() =>
+                      window.open("https://c-rush.vercel.app/", "_blanck")
+                    }
+                    className="text-cyan-400 font-semibold cursor-pointer"
+                  >
+                    C-Rush 1.0, 2.0 & 3.0
                   </span>
                   , has become a cornerstone for nurturing young talent and
                   building a thriving culture of competitive programming on
@@ -112,20 +117,18 @@ export default function TeamLeaderSection() {
               <div className="flex items-center gap-2 bg-gradient-to-r from-cyan-600/20 to-cyan-500/10 px-4 py-2 rounded-full border border-cyan-500/30">
                 <Trophy className="w-4 h-4 text-cyan-400" />
                 <span className="text-cyan-300 font-medium">
-                  National Hackathons
+                  5x Winner National Hackathons
                 </span>
               </div>
               <div className="flex items-center gap-2 bg-gradient-to-r from-purple-600/20 to-purple-500/10 px-4 py-2 rounded-full border border-purple-500/30">
                 <Trophy className="w-4 h-4 text-purple-400" />
                 <span className="text-purple-300 font-medium">
-                  Project Expos
+                  9x Winner Project Expos
                 </span>
               </div>
               <div className="flex items-center gap-2 bg-gradient-to-r from-pink-600/20 to-pink-500/10 px-4 py-2 rounded-full border border-pink-500/30">
                 <Users className="w-4 h-4 text-pink-400" />
-                <span className="text-pink-300 font-medium">
-                  Team Excellence
-                </span>
+                <span className="text-pink-300 font-medium">30+ Events</span>
               </div>
             </div>
           </div>
@@ -154,7 +157,7 @@ export default function TeamLeaderSection() {
                   <p className="text-white font-bold text-sm mt-1">
                     Excellence
                   </p>
-                  <p className="text-yellow-100 text-xs">Leader</p>
+                  <p className="text-yellow-100 text-xs">Team</p>
                 </div>
               </div>
             </div>

@@ -8,6 +8,7 @@ import {
   Brain,
   Zap,
   ArrowRight,
+  ArrowDown,
 } from "lucide-react";
 
 export default function AboutMe() {
@@ -265,7 +266,7 @@ export default function AboutMe() {
               <a href="#contact">
                 <span>Let&#39;s Build Something Amazing</span>
               </a>
-              <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform duration-200" />
+              <ArrowDown className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform duration-200" />
             </div>
           </div>
         </div>

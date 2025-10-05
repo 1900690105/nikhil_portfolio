@@ -5,13 +5,13 @@ const stats = [
   { label: "National photoss", value: 32 },
   { label: "Hackathons", value: 18 },
   { label: "Project Expos", value: 14 },
-  { label: "Wins", value: 13 },
-  { label: "States Represented", value: 3 },
-  { label: "Cities Covered", value: 25 },
-  { label: "Team Members", value: "45–50" },
-  { label: "Organize photoss", value: "2" },
-  { label: "Participation", value: "50" },
-  { label: "Winners", value: "9" },
+  { label: "Wins", value: 14 },
+  { label: "States Represented", value: 4 },
+  { label: "Cities Covered", value: "20+" },
+  { label: "Team Members", value: "50+" },
+  { label: "Organize photoss", value: "3" },
+  { label: "Participation", value: "50+" },
+  { label: "Winners", value: "15+" },
 ];
 
 export default function TeamStats() {

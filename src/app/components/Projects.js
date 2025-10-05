@@ -4,60 +4,86 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
-    title: "All In One Code Editor",
-    techStack: ["Next.js", "Tailwind CSS", "monaco-editor", "Judge0 API"],
-    description: `🚀 Just launched my own Online Code Editor — built with ❤️ using Next.js App Router, Monaco Editor, and Judge0 API!
-✨ Features:
-✅ Live code editing with Monaco
-✅ Input support for stdin
-✅ 50+ language support (auto-loaded)
-✅ Syntax highlighting for top languages
-✅ Backend-protected API key integration
-✅ Fully responsive UI with Tailwind CSS
-💡 Ideal for interview preparation & learning — because A degree ≠ a job.
-👉 Check it out [nikhilkandhare.vercel.app]
-💬 Drop your thoughts or suggestions!`,
-    github: "https://github.com/1900690105/Code_Editor",
-    live: "https://avsarmarg.vercel.app/learn/codeeditor",
+    title: "Avsarmarg - Your Journey from Campus to Company Starts Here",
+    techStack: [
+      "React.js",
+      "Next.js",
+      "Firebase",
+      "Gemini",
+      "Tailwind CSS",
+      "github",
+      "Vercel+CI/CD",
+      "monaco-editor",
+      "Judge0 API",
+      "cheerio",
+      "Job Listing Fetch  API",
+    ],
+    description:
+      "Personalized career paths, skills development,interview preparation and job opportunities tailored for students.",
+    github: "#",
+    live: "https://avsarmarg.vercel.app/",
   },
   {
-    title: "ChatBot That intergrete with any website",
-    techStack: ["Next.js", "Tailwind CSS", "Gemini AI API", "cheerio"],
+    title: "File Xerox - Upload->Print->Pickup",
+    techStack: [
+      "React.js",
+      "Next.js",
+      "Tailwind CSS",
+      "Vercel+CI/CD",
+      "Cloudinary",
+    ],
+    description: `Revolutionary cloud printing that connects you to thousands of Xerox centers. No USB drives. No waiting.`,
+    github: "https://github.com/1900690105/filexerox",
+    live: "https://filexerox.vercel.app/",
+  },
+  {
+    title: "BodhaBot - One Chatbot,Infinite Possibilities",
+    techStack: [
+      "React.js",
+      "Next.js",
+      "Tailwind CSS",
+      "Gemini AI API",
+      "Vercel+CI/CD",
+    ],
     description:
-      "An Lets AI answer the question asked by user,here is the platform that handle user interaction of your platform it answer the question using your website data with the help of gemini AI API.This page also contain this chatbot",
-    github: "https://github.com/1900690105/chatbot",
-    live: "/",
+      "Integrate intelligent conversations into your website by simply sharing your URL, JSON data, or PDF documents. Let AI handle the rest.",
+    github: "#",
+    live: "https://bodhabot.vercel.app/",
   },
   {
     title: "Modern College Website Using AI",
-    techStack: ["Next.js", "Tailwind CSS", "Gemini AI API"],
+    techStack: [
+      "React.js",
+      "Next.js",
+      "Tailwind CSS",
+      "Gemini AI API",
+      "MySql",
+    ],
     description:
       "🎓 An interactive and responsive college website powered by AI — featuring smart chatbots for instant guidance, AI-generated content, and seamless navigation to help students explore their academic journey with ease.",
     github: "https://github.com/1900690105/GROUP_G1",
   },
   {
-    title: "AI Resume Builder",
-    techStack: ["Nextsjs", "Gemini AI API", "Tailwind"],
+    title: "C-Rush 3.0 - Hackathon Event Website",
+    techStack: [
+      "React.js",
+      "Nextsjs",
+      "Gemini AI API",
+      "Tailwind",
+      "Vercel+CI/CD",
+    ],
     description:
-      "An AI-powered platform that helps users generate professional resumes with content suggestions, formatting, and export to PDF.",
+      "The Ultimate Programming Challenge by GCOEY Team event website. Solve mind-bending problems and prove your coding prowess!",
     github: "#",
-    live: "https://avsarmarg.vercel.app/profiling/resume",
+    live: "https://c-rush.vercel.app/",
   },
   {
-    title: "Mock Interview Website with AI",
-    techStack: ["Next.js", "Firebase", "OpenAI", "Tailwind CSS"],
+    title: "Find About State - City Information Finder",
+    techStack: ["React", "NextJs", "Gemini AI API", "Tailwind"],
     description:
-      "A tool that simulates technical interviews using AI, provides instant feedback, and highlights strengths and areas of improvement.",
+      "AI powered platform that help to find information about cities in any state and country with detailed information",
     github: "#",
-    live: "https://avsarmarg.vercel.app/technical/mockinterview",
-  },
-  {
-    title: "AI Roadmap Generator",
-    techStack: ["React", "Gemini AI API", "Tailwind"],
-    description:
-      "Generates personalized learning roadmaps for different tech roles using AI by understanding user goals and experience levels.",
-    github: "#",
-    live: "https://avsarmarg.vercel.app/careerplanning/DepartmentJobRoles",
+    live: "https://findaboutstate.vercel.app/",
   },
 ];
 

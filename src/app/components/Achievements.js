@@ -7,37 +7,93 @@ const achievements = [
   {
     title: "IEEE SSGMCE Technovation Winner",
     description:
-      "Won first place for developing an AI-powered career planner at SSGMCE's prestigious IEEE photos.",
-    logo: "/photos/img10.jpg",
+      "Secured First Prize at Technovation Project Expo, a prestigious project competition organized by IEEE SB SSGMCE, Shegaon!",
+    logo: "/photos/w1.png",
   },
   {
-    title: "Project Expo Winner Yavatmal",
-    description: "Won third place.",
-    logo: "/photos/img20.jpg",
-  },
-  {
-    title: "Project Expo Winner Nagpur",
+    title: "We are the HackSphere 2.0 Champions! 🏆🏅",
     description:
-      "Won first place for developing an AI-powered career planner at SSGMCE's prestigious IEEE photossssss.",
-    logo: "/photos/img13.jpg",
-  },
-  {
-    title: "National Hackathon Winner (Hacksphere)",
-    description:
-      "Secured top rank for building a smart mock interview system using AI at Hacksphere Hackathon.",
-    logo: "/photos/img2.jpg",
-  },
-  {
-    title: "National Hackathon Winner (Codesphere)",
-    description:
-      "Awarded for developing a real-time roadmap generator for students and professionals.",
+      "A huge shoutout to The CodeBreakers RCOEM for organizing an amazing experience filled with innovation, collaboration, and top-tier management",
     logo: "/photos/img5.jpg",
   },
   {
-    title: "Project Expo Winner",
+    title:
+      "🚀 Innovating for Success – Proud 3rd Place Winners at Pragati 2025! 🏆🎯",
     description:
-      "Recognized for best innovation in web-based healthcare solutions during final-year expo.",
+      "I—clinched 3rd place 🥉 at the Pragati - National Level Business Plan Competition, hosted by St. Francis Institute Of Technology (SFIT), Mumbai! 🎉",
+    logo: "/photos/w4.png",
+  },
+  {
+    title: "UNNATI 2K25 at Priyadarshini College of Engineering",
+    description:
+      "Won consolation price.Had an incredible time at Priyadarshini College of Engineering! A special thanks to the Mechanical Engineering Department for their support and hospitality. The experience was truly valuable, filled with learning and inspiration.",
+    logo: "/photos/w5.png",
+  },
+  {
+    title: "2nd Prize in the IDEA-THON at TECH-AXION 2K25",
+    description:
+      "National Level Event organized by the Department of Information Technology, Tulsiramji Gaikwad Patil College of Engineering and Technology, Nagpur (An Autonomous Institute).🌟",
+    logo: "/photos/w6.png",
+  },
+
+  {
+    title: "🎉 Victory at Tech-Carvaan 2025 – Codesphere Hackathon! 🏆",
+    description:
+      "We’re thrilled to announce that our team emerged as Winners of the National Level Technical Fest – Tech-Carvaan 2025, in the 24-hour Codesphere Hackathon, organized by Government College of Engineering, Jalgaon!",
+    logo: "/photos/w7.png",
+  },
+  {
+    title:
+      "🚀 From Idea to Victory – We are the HackSphere 2.0 Champions! 🏆🏅",
+    description:
+      "A huge shoutout to The CodeBreakers RCOEM for organizing an amazing experience filled with innovation, collaboration, and top-tier management. The event was flawlessly executed, providing us with a platform to showcase our skills and creativity!",
+    logo: "/photos/w8.png",
+  },
+  {
+    title:
+      "🏆 1st Runner-Up at Tech-Fusion 2K25 – A Journey Worth Remembering!",
+    description:
+      "our team secured the 1st Runner-Up position at Tech-Fusion 2K25, brilliantly organized by ETSA & CESA at the Government College of Engineering, Yavatmal!",
+    logo: "/photos/w9.png",
+  },
+  {
+    title: "🚀 𝗣𝗥𝗔𝗕𝗔𝗟 𝟮𝟬𝟮𝟱 – 𝗧𝗵𝗲 𝗨𝗹𝘁𝗶𝗺𝗮𝘁𝗲 𝗚𝗮𝗺𝗲 𝗼𝗳 𝗖𝗼𝗱𝗲𝘀 ⚔️",
+    description:
+      "The 𝗚𝗿𝗮𝗻𝗱 𝗢𝗳𝗳𝗹𝗶𝗻𝗲 𝟰𝟬-𝗵𝗼𝘂𝗿 non-stop coding battle 𝗛𝗮𝗰𝗸𝗮𝘁𝗵𝗼𝗻 hosted by the Google Developer Group (GDG On Campus SGU) at Sanjay Ghodawat University (SGU) was nothing short of 𝗘𝗣𝗜𝗖!",
+    logo: "/photos/w10.jpg",
+  },
+  {
+    title:
+      "INNOVANZA 2K25 Project Expo competition held at Ramdeobaba College in Nagpur",
+    description:
+      "we are incredibly proud to announce that our project, Al-Powered Career Coach Guidance, secured the 2nd Runner-Up position!",
+    logo: "/photos/img13.jpg",
+  },
+  {
+    title:
+      "1st Runner-Up spot at Brahmax 1.0 – Global, Jabalpur, Madhya Pradesh!",
+    description:
+      "24 hours. One idea. Zero sleep. Countless bugs. And a prototype we’re truly proud of Grateful for the opportunity, the adrenaline, and the memories!",
+    logo: "/photos/img19.jpg",
+  },
+  {
+    title: "Our Innovation at Ramdev Baba University, Nagpur!",
+    description:
+      "Won 2nd place for amazing opportunity to present our project at the Project Exhibition 2025 held at Ramdev Baba University, Nagpur",
     logo: "/photos/img6.jpg",
+  },
+
+  {
+    title: "Build Solo winner",
+    description:
+      "I win 1st price at SSGMCE a National Level Business Plan Competition Showcasing our project alongside many talented minds and witnessing groundbreaking ideas was truly inspiring!",
+    logo: "/photos/img7.jpg",
+  },
+  {
+    title: "jagdamba college Project Expo Yavatmal",
+    description:
+      "Consolation Position (3rd Rank) in the Nation-Level Project Model Presentation Competition at the prestigious National-Level Technical Event X-Plore25, hosted by Jagadambha College of Engineering & Technology, Yavatmal.",
+    logo: "/photos/img20.jpg",
   },
 ];
 

@@ -11,7 +11,7 @@ export default function VideoSection() {
 
         <div className="relative pb-[56.25%] h-0 overflow-hidden rounded-xl shadow-lg">
           <video controls className="w-full rounded-xl shadow-lg">
-            <source src="/photos/video.mp4" type="video/mp4" />
+            <source src="/gcoey.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
