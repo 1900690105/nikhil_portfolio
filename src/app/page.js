@@ -14,6 +14,7 @@ import Skills from "./components/Skills";
 import TeamStats from "./components/State";
 import VideoSection from "./components/VideoSection";
 import GoToTop from "./components/GoTo";
+import EducationSection from "./components/Education";
 
 // SEO Configuration - Personalized for Nikhil Kandhare
 const seoConfig = {
@@ -205,6 +206,7 @@ const Home = () => {
           <AboutMe />
           <Skills />
           <Projects />
+          <EducationSection />
           <Achievements />
           <TeamLeaderSection />
           <TeamStats />

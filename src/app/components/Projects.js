@@ -4,6 +4,31 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
+    title: "PeriodCare – AI-Powered Menstrual Health Companion",
+    techStack: [
+      "Next.js",
+      "React.js",
+      "Tailwind CSS",
+      "Gemini AI API",
+      "Ollama (Local LLM)",
+      "FastAPI (Optional Backend)",
+    ],
+    description:
+      "An AI-driven menstrual health platform offering multi-language education, symptom guidance, personalized recommendations, myth-busting, partner mode support, and more to improve menstrual awareness and comfort.",
+    github: "https://github.com/1900690105/periodcare",
+    live: "https://periodcareforyou.vercel.app/",
+  },
+
+  {
+    title: "Together, We Can Stop Food Waste",
+    techStack: ["Next.js", "React.js", "Tailwind CSS", "Map API", "Firebase"],
+    description:
+      "Our platform aims to eliminate food wastage by bridging the gap between those who have surplus food and those in need — using technology for a better tomorrow.",
+    github: "https://github.com/1900690105/ZeroWasteBite",
+    live: "https://zerowastebite.vercel.app/",
+  },
+
+  {
     title: "Avsarmarg - Your Journey from Campus to Company Starts Here",
     techStack: [
       "React.js",
