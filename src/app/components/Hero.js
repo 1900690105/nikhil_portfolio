@@ -68,7 +68,7 @@ export default function HeroSection() {
                 </Link>
 
                 <a
-                  href="https://github.com/yourgithub"
+                  href="https://github.com/1900690105"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group inline-flex items-center justify-center gap-2 px-6 sm:px-8 py-3 sm:py-4 border-2 border-gray-500 text-gray-300 font-medium rounded-full hover:bg-gray-700 hover:border-gray-400 hover:scale-105 hover:shadow-xl transition-all duration-300 text-sm sm:text-base"
