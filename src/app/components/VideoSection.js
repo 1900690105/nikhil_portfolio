@@ -5,7 +5,7 @@ export default function VideoSectionIframe({
   cloudName = "dwkizoqok",
   publicId = "gcoey_larvhj",
 }) {
-  const src = `https://player.cloudinary.com/embed/?cloud_name=${cloudName}&public_id=${publicId}&profile=cld-default`;
+  const src = `https://player.cloudinary.com/embed/?cloud_name=dwkizoqok&public_id=kjxbb0mpcafq68xscfgl&profile=cld-default`;
 
   return (
     <section className="py-16 px-6 sm:px-10 lg:px-24">
