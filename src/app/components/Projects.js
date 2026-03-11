@@ -4,6 +4,15 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
+    title: "PharmacogenomicAI-Genetic Drug Analysis",
+    techStack: ["Next.js", "React.js", "Tailwind CSS", "AI API"],
+    description:
+      "PharmacogenomicAI provides pre-prescription genomic drug validation.Upload patient genomic data → AI predicts drug response → Doctor chooses safest therapy.By combining CPIC pharmacogenomic guidelines with LLM medical reasoning, our system gives clinicians actionable, evidence-backed guidance before the first prescription is written.",
+    github: "https://github.com/1900690105/RIFTGCOEY",
+    live: "https://riftgcoey.vercel.app/",
+  },
+
+  {
     title: "PeriodCare – AI-Powered Menstrual Health Companion",
     techStack: [
       "Next.js",

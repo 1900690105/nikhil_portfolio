@@ -2,9 +2,9 @@
 import React from "react";
 
 const stats = [
-  { label: "National photoss", value: 32 },
-  { label: "Hackathons", value: 18 },
-  { label: "Project Expos", value: 14 },
+  { label: "National photoss", value: 35 },
+  { label: "Hackathons", value: 20 },
+  { label: "Project Expos", value: 15 },
   { label: "Wins", value: 14 },
   { label: "States Represented", value: 4 },
   { label: "Cities Covered", value: "20+" },

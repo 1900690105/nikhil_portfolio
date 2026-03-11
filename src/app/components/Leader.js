@@ -101,7 +101,7 @@ export default function TeamLeaderSection() {
                     onClick={() =>
                       window.open("https://c-rush.vercel.app/", "_blanck")
                     }
-                    className="text-cyan-400 font-semibold cursor-pointer"
+                    className="text-cyan-400 font-semibold cursor-pointer hover:underline"
                   >
                     C-Rush 1.0, 2.0 & 3.0
                   </span>
@@ -128,7 +128,7 @@ export default function TeamLeaderSection() {
               </div>
               <div className="flex items-center gap-2 bg-gradient-to-r from-pink-600/20 to-pink-500/10 px-4 py-2 rounded-full border border-pink-500/30">
                 <Users className="w-4 h-4 text-pink-400" />
-                <span className="text-pink-300 font-medium">30+ Events</span>
+                <span className="text-pink-300 font-medium">35+ Events</span>
               </div>
             </div>
           </div>

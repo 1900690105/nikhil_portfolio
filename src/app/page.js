@@ -15,6 +15,7 @@ import TeamStats from "./components/State";
 import VideoSection from "./components/VideoSection";
 import GoToTop from "./components/GoTo";
 import EducationSection from "./components/Education";
+import Experience from "./components/Experience";
 
 // SEO Configuration - Personalized for Nikhil Kandhare
 const seoConfig = {
@@ -200,13 +201,14 @@ const Home = () => {
         </Head>
 
         <div className="bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 text-white">
-          <CompanyChatbot messages={messages} setMessages={setMessages} />
+          {/* <CompanyChatbot messages={messages} setMessages={setMessages} /> */}
           <GoToTop />
           <HeroSection />
           <AboutMe />
           <Skills />
           <Projects />
           <EducationSection />
+          <Experience />
           <Achievements />
           <TeamLeaderSection />
           <TeamStats />

@@ -48,6 +48,8 @@ export default function Skills() {
         "Prisma ORM",
         "Slack",
         "Postman",
+        "React Query",
+        "Ollama",
       ],
       color: "from-amber-500/20 to-amber-600/5",
       borderColor: "border-amber-500/30",
