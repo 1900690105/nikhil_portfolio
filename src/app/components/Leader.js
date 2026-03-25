@@ -26,7 +26,7 @@ export default function TeamLeaderSection() {
             </span>
           </div>
           <h2 className="text-5xl md:text-6xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 leading-tight">
-            Leading Team GCOEY
+            Team Lead – GCOEY
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
             Spearheading innovation and excellence in competitive programming at

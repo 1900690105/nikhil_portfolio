@@ -4,7 +4,7 @@ export default function Experience() {
   const experience = [
     {
       company: "Electrosoft System",
-      role: "Full Stack Web Development Intern",
+      role: "Full Stack Web Development",
       location: "Pune, Maharashtra",
       period: "July 2025 - Ongoing",
       projects: "Project- 2",

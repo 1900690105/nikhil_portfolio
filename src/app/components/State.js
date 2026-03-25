@@ -9,14 +9,14 @@ const stats = [
   { label: "States Represented", value: 4 },
   { label: "Cities Covered", value: "20+" },
   { label: "Team Members", value: "50+" },
-  { label: "Organize photoss", value: "3" },
-  { label: "Participation", value: "50+" },
-  { label: "Winners", value: "15+" },
+  { label: "Organize photoss(C-Rush)", value: "3" },
+  { label: "Participation(C-Rush)", value: "50+" },
+  { label: "Winners(C-Rush)", value: "15+" },
 ];
 
 export default function TeamStats() {
   return (
-    <section className=" py-20 px-6 sm:px-10 lg:px-24  relative overflow-hidden">
+    <section className="-mt-16 px-6 sm:px-10 lg:px-24  relative overflow-hidden">
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-cyan-500/5 rounded-full blur-3xl animate-pulse"></div>

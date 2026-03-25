@@ -23,19 +23,6 @@ export default function AboutMe() {
     "Tech Innovator",
   ];
 
-  const techStack = [
-    { name: "HTML5", color: "from-orange-400 to-red-500", level: 95 },
-    { name: "CSS3", color: "from-blue-400 to-blue-600", level: 90 },
-    { name: "JavaScript", color: "from-yellow-400 to-orange-500", level: 88 },
-    { name: "React", color: "from-cyan-400 to-blue-500", level: 85 },
-    { name: "Next.js", color: "from-gray-400 to-gray-600", level: 80 },
-    { name: "Tailwind CSS", color: "from-teal-400 to-cyan-500", level: 92 },
-    { name: "Firebase", color: "from-yellow-400 to-orange-600", level: 75 },
-    { name: "Node.js", color: "from-green-400 to-green-600", level: 78 },
-    { name: "Python", color: "from-blue-400 to-yellow-500", level: 82 },
-    { name: "AI APIs", color: "from-purple-400 to-pink-500", level: 70 },
-  ];
-
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentRole((prev) => (prev + 1) % roles.length);
@@ -64,17 +51,21 @@ export default function AboutMe() {
         <div className="absolute bottom-20 right-10 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-pink-500/5 rounded-full blur-3xl animate-pulse delay-500"></div>
       </div>
+      <div className="absolute inset-0 opacity-10 pointer-events-none">
+        <div className="absolute top-20 left-4 sm:left-10 w-48 sm:w-72 h-48 sm:h-72 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-20 right-4 sm:right-10 w-64 sm:w-96 h-64 sm:h-96 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full blur-3xl"></div>
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-60 sm:w-80 h-60 sm:h-80 bg-gradient-to-r from-blue-500 to-cyan-400 rounded-full blur-3xl"></div>
+      </div>
 
       <div className="relative z-10 py-20 px-6 sm:px-10 lg:px-24">
         <div className="max-w-6xl mx-auto">
           {/* Hero Section */}
           <div className="text-center mb-20">
             <div className="mb-6">
-              <h2 className="text-6xl md:text-7xl font-black mb-4">
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 animate-pulse">
-                  About
+              <h2 className=" text-5xl md:text-6xl font-bold mb-4">
+                <span className=" bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 text-transparent bg-clip-text">
+                  About Me
                 </span>
-                <span className="text-white ml-4">Me</span>
               </h2>
               <div className="h-8 mb-4">
                 <p className="text-2xl md:text-3xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 transition-all duration-500">
@@ -97,13 +88,18 @@ export default function AboutMe() {
                 <div className="relative z-10">
                   <Sparkles className="w-8 h-8 text-yellow-400 mb-4 group-hover:rotate-12 transition-transform duration-300" />
                   <h3 className="text-2xl font-bold text-white mb-4">
-                    My Journey
+                    About Me
                   </h3>
                   <p className="text-gray-300 leading-relaxed">
-                    I&#39;m a passionate Full Stack Developer with a strong
-                    focus on building scalable web applications and AI-powered
-                    solutions. I love transforming complex ideas into elegant,
-                    efficient systems that make real-world impact.
+                    Full Stack Developer specializing in building scalable,
+                    production-ready web applications using Next.js, React, and
+                    modern backend architectures. Experienced in designing
+                    secure authentication systems, optimizing performance, and
+                    implementing real-time and distributed solutions using
+                    technologies like PostgreSQL, Redis, and Kafka. Strong focus
+                    on clean architecture, system reliability, and DevOps
+                    practices. Proven ability to take projects from MVP to
+                    production with high-quality standards.
                   </p>
                 </div>
               </div>
@@ -120,9 +116,9 @@ export default function AboutMe() {
                     <strong className="text-green-400">
                       Bachelor&#39;s degree in Technology (BTech)
                     </strong>{" "}
-                    and a{" "}
+                    and{" "}
                     <strong className="text-green-400">
-                      Diploma in Engineering
+                      Diploma in Computer science & Engineering
                     </strong>
                     , both of which laid the foundation for my problem-solving
                     mindset and technical expertise.
@@ -188,10 +184,14 @@ export default function AboutMe() {
                 </h3>
                 <div className="space-y-4">
                   {[
+                    { icon: "⚡", text: "Ownership & Accountability" },
+                    { icon: "💼", text: "Management" },
                     { icon: "🚀", text: "Innovation First" },
                     { icon: "🎯", text: "Quality Focused" },
                     { icon: "🤝", text: "Collaboration" },
                     { icon: "📚", text: "Continuous Learning" },
+                    { icon: "⏱️", text: "Discipline & Time Management" },
+                    { icon: "🧩", text: "Problem Solving" },
                   ].map((value, index) => (
                     <div
                       key={index}
@@ -205,68 +205,6 @@ export default function AboutMe() {
                   ))}
                 </div>
               </div>
-            </div>
-          </div>
-
-          {/* Tech Stack Section */}
-          <div className="relative">
-            <h3 className="text-4xl font-bold mb-8 text-center">
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-400">
-                Tech Stack
-              </span>
-            </h3>
-
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
-              {techStack.map((tech, index) => (
-                <div
-                  key={tech.name}
-                  className="group relative"
-                  onMouseEnter={() => setHoveredTech(index)}
-                  onMouseLeave={() => setHoveredTech(null)}
-                >
-                  <div className="relative p-6 bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl hover:scale-110 hover:shadow-2xl transition-all duration-300 cursor-pointer overflow-hidden">
-                    {/* Animated background */}
-                    <div
-                      className={`absolute inset-0 bg-gradient-to-r ${tech.color} opacity-0 group-hover:opacity-20 transition-opacity duration-300`}
-                    ></div>
-
-                    {/* Content */}
-                    <div className="relative z-10 text-center">
-                      <div className="text-lg font-semibold text-white mb-2">
-                        {tech.name}
-                      </div>
-
-                      {/* Skill level bar */}
-                      <div className="w-full bg-white/10 rounded-full h-2 mb-2">
-                        <div
-                          className={`h-2 rounded-full bg-gradient-to-r ${tech.color} transition-all duration-1000 ease-out`}
-                          style={{
-                            width:
-                              hoveredTech === index ? `${tech.level}%` : "0%",
-                            transitionDelay: `${index * 100}ms`,
-                          }}
-                        ></div>
-                      </div>
-
-                      {hoveredTech === index && (
-                        <div className="text-sm text-gray-300 animate-fade-in">
-                          {tech.level}% proficiency
-                        </div>
-                      )}
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* CTA Section */}
-          <div className="mt-20 text-center">
-            <div className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full text-white font-semibold hover:from-purple-600 hover:to-pink-600 transition-all duration-300 hover:scale-105 hover:shadow-xl cursor-pointer group">
-              <a href="#contact">
-                <span>Let&#39;s Build Something Amazing</span>
-              </a>
-              <ArrowDown className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform duration-200" />
             </div>
           </div>
         </div>

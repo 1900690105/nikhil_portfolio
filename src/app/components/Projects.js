@@ -125,8 +125,10 @@ export default function Projects() {
   return (
     <section id="projects" className=" py-16 px-6 sm:px-10 lg:px-24">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-cyan-400 to-pink-400">
-          Current Top Projects
+        <h2 className=" text-5xl text-center md:text-6xl font-bold mb-4">
+          <span className=" bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 text-transparent bg-clip-text">
+            Current Top Projects
+          </span>
         </h2>
 
         <div className="grid md:grid-cols-2 gap-8">
