@@ -130,7 +130,6 @@ export default function Projects() {
             Current Top Projects
           </span>
         </h2>
-
         <div className="grid md:grid-cols-2 gap-8">
           {projects.map((project, index) => (
             <div
