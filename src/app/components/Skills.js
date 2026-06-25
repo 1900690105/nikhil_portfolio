@@ -18,6 +18,7 @@ const skillsData = [
       "C",
       "Python",
       "JavaScript",
+      "Typescript",
       "Java (Basic)",
     ],
     color: "from-cyan-500/20 to-cyan-600/5",
