@@ -7,7 +7,7 @@ export default function EducationSection() {
       institution: "Government College of Engineering Yavatmal",
       location: "Yavatmal, Maharashtra",
       period: "2022 - 2025",
-      grade: "CGPA: 8.84/10",
+      grade: "CGPA: 8.84",
       highlights: [
         "Specialized in AI/ML and Web Technologies",
         "Led development team for final year project",
@@ -19,7 +19,7 @@ export default function EducationSection() {
       institution: "GTMC",
       location: "Vishnupuri, Nanded",
       period: "2019 - 2022",
-      grade: "Percentage: 82%",
+      grade: "Percentage: 82.17%",
       highlights: [
         "Science Stream with Computer Science",
         "Get basic knowledge in computer",
@@ -73,8 +73,11 @@ export default function EducationSection() {
 
                 <div className="space-y-2">
                   {edu.highlights.map((highlight, idx) => (
-                    <div key={idx} className="flex items-start gap-2">
-                      <span className="text-cyan-400 mt-1.5">▹</span>
+                    <div
+                      key={idx}
+                      className="flex items-start gap-2 text-center"
+                    >
+                      <span className="text-cyan-400">▹</span>
                       <p className="text-gray-300">{highlight}</p>
                     </div>
                   ))}

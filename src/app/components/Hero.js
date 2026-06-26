@@ -38,11 +38,13 @@ export default function HeroSection() {
 
               <p className="text-sm sm:text-base md:text-lg text-gray-400 mb-6 sm:mb-8 md:mb-10 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
                 I develop scalable, intelligent applications using{" "}
-                <span className="text-purple-400 font-medium">Next.js</span>,{" "}
-                <span className="text-orange-400 font-medium">Firebase</span>,{" "}
-                <span className="text-green-400 font-medium">React</span>, and{" "}
-                <span className="text-pink-400 font-medium">AI tools</span> —
-                blending front-end precision with back-end logic.
+                <span className="text-purple-400 font-medium">NextJs</span>,{" "}
+                <span className="text-orange-400 font-medium">ReactJs</span>,{" "}
+                <span className="text-blue-400 font-medium">Javascript</span>,{" "}
+                <span className="text-red-400 font-medium">Typescript</span>,{" "}
+                <span className="text-green-400 font-medium">PostgreSql</span>,
+                and <span className="text-pink-400 font-medium">AI tools</span>{" "}
+                — blending front-end precision with back-end logic.
               </p>
 
               {/* CTA Buttons */}
@@ -90,13 +92,6 @@ export default function HeroSection() {
                 {/* Main Image Container */}
                 <div className="relative w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-transparent bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 p-1 hover:scale-105 transition-transform duration-500">
                   <div className="w-full h-full rounded-full overflow-hidden bg-slate-900">
-                    {/* Placeholder for image - replace with your actual image */}
-                    {/* <div className="w-full h-full bg-gradient-to-br from-slate-800 to-slate-900 flex items-center justify-center">
-                      <div className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-bold text-transparent bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text">
-                        NK
-                      </div>
-                    </div> */}
-                    {/* Uncomment and use when you have the image */}
                     <Image
                       src="/hero3.jpg"
                       height={500}

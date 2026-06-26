@@ -5,7 +5,7 @@ const stats = [
   { label: "National photoss", value: 35 },
   { label: "Hackathons", value: 20 },
   { label: "Project Expos", value: 15 },
-  { label: "Wins", value: 14 },
+  { label: "Wins", value: 15 },
   { label: "States Represented", value: 4 },
   { label: "Cities Covered", value: "20+" },
   { label: "Team Members", value: "50+" },

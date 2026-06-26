@@ -123,12 +123,12 @@ export default function TeamLeaderSection() {
               <div className="flex items-center gap-2 bg-gradient-to-r from-purple-600/20 to-purple-500/10 px-4 py-2 rounded-full border border-purple-500/30">
                 <Trophy className="w-4 h-4 text-purple-400" />
                 <span className="text-purple-300 font-medium">
-                  9x Winner Project Expos
+                  10x Winner Project Expos
                 </span>
               </div>
               <div className="flex items-center gap-2 bg-gradient-to-r from-pink-600/20 to-pink-500/10 px-4 py-2 rounded-full border border-pink-500/30">
                 <Users className="w-4 h-4 text-pink-400" />
-                <span className="text-pink-300 font-medium">35+ Events</span>
+                <span className="text-pink-300 font-medium">36+ Events</span>
               </div>
             </div>
           </div>

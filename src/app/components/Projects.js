@@ -55,7 +55,7 @@ const projects = [
     description:
       "Personalized career paths, skills development,interview preparation and job opportunities tailored for students.",
     github: "#",
-    live: "https://avsarmarg.vercel.app/",
+    live: "https://avsarmarg.com",
   },
   {
     title: "File Xerox - Upload->Print->Pickup",
@@ -84,40 +84,29 @@ const projects = [
     github: "#",
     live: "https://bodhabot.vercel.app/",
   },
+
   {
-    title: "Modern College Website Using AI",
+    title: "Easy-mailer",
+    techStack: ["nodejs", "javascript", "api", "npm-package"],
+    description:
+      "A simple and powerful email SDK for Node.js with bulk sending, templates, and multi-provider support.",
+    github: "https://github.com/1900690105/send_mail_package",
+    live: "https://www.npmjs.com/package/@graminpoly123/easy-mailer",
+  },
+  {
+    title: "Cardamom House - Premium Café Menu & Reservation Platform",
     techStack: [
-      "React.js",
       "Next.js",
+      "React",
+      "TypeScript",
       "Tailwind CSS",
-      "Gemini AI API",
-      "MySql",
+      "EmailJS",
+      "Motion",
     ],
     description:
-      "🎓 An interactive and responsive college website powered by AI — featuring smart chatbots for instant guidance, AI-generated content, and seamless navigation to help students explore their academic journey with ease.",
-    github: "https://github.com/1900690105/GROUP_G1",
-  },
-  {
-    title: "C-Rush 3.0 - Hackathon Event Website",
-    techStack: [
-      "React.js",
-      "Nextsjs",
-      "Gemini AI API",
-      "Tailwind",
-      "Vercel+CI/CD",
-    ],
-    description:
-      "The Ultimate Programming Challenge by GCOEY Team event website. Solve mind-bending problems and prove your coding prowess!",
-    github: "#",
-    live: "https://c-rush.vercel.app/",
-  },
-  {
-    title: "Find About State - City Information Finder",
-    techStack: ["React", "NextJs", "Gemini AI API", "Tailwind"],
-    description:
-      "AI powered platform that help to find information about cities in any state and country with detailed information",
-    github: "#",
-    live: "https://findaboutstate.vercel.app/",
+      "A modern, responsive café website featuring an interactive digital menu, dietary filters, live search, table reservation with email confirmation, order token generation, dark mode, smooth animations, and an accessibility-focused user experience.",
+    github: "https://github.com/1900690105/frontend_rial_task",
+    live: "https://cardamomhouse.vercel.app/",
   },
 ];
 
